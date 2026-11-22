@@ -1322,3 +1322,34 @@ progress::-moz-progress-bar {
     font-size: 0.68rem;
   }
 }
+
+/* GitHub Sponsors */
+.btn.sponsor {
+  border-color: transparent;
+  background: linear-gradient(135deg, #ec4899, #f472b6);
+  color: #210814;
+}
+
+.btn.sponsor:hover {
+  filter: brightness(1.08);
+}
+
+.support-goal {
+  margin-top: 14px !important;
+  color: var(--muted);
+  font-size: 0.78rem !important;
+}
+
+.support-goal strong {
+  color: #fbcfe8;
+}
+
+.support-goal a {
+  color: #f9a8d4;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.support-goal a:hover {
+  text-decoration: underline;
+}
