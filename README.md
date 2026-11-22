@@ -211,6 +211,14 @@ Want this adapted for a real student portal, placement cell, or internal learnin
 - Telegram: **https://t.me/Omegaapiofficial**
 - Portfolio: **https://omegaapi.com**
 
+## ❤️ Sponsor this project
+
+If EduIQ saves you time or helps your business, please consider sponsoring. It keeps the live demo online and lets me keep building free, open-source tools.
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/omegaapi-india)
+
+Even $1/month helps. Can't sponsor? A ⭐ on this repo or sharing it with someone who needs it helps too!
+
 ## License
 
 MIT — see [LICENSE](LICENSE). Copyright © 2026 Krishna Prakash Ojha (Leon), OmegaAPI.
