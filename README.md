@@ -215,7 +215,7 @@ Want this adapted for a real student portal, placement cell, or internal learnin
 
 If EduIQ saves you time or helps your studies, please consider sponsoring OmegaAPI. It keeps the live demo online and lets me keep building free, open-source tools.
 
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/omegaapi-india)
+[![Sponsor OmegaAPI](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/omegaapi-india)
 
 Goal: **10 monthly sponsors**. [View monthly tiers ($5, $25, $100, $250)](https://github.com/sponsors/omegaapi-india?interval=monthly). Every monthly sponsor helps. Can't sponsor? A ⭐ on this repo or sharing it with someone who needs it helps too!
 
