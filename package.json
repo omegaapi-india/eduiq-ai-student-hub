@@ -1,0 +1,19 @@
+{
+  "name": "eduiq-ai-student-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Eight privacy-safe AI student demos in one free Cloudflare Pages hub.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "wrangler pages dev . --port 8787",
+    "bridge": "node bridge/ollama-bridge.js",
+    "test": "node --test tests/*.test.js",
+    "deploy": "wrangler pages deploy . --project-name eduiq --branch main"
+  },
+  "devDependencies": {
+    "wrangler": "4.166.0"
+  }
+}

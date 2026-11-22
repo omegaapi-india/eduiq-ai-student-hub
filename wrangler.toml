@@ -1,0 +1,8 @@
+name = "eduiq"
+compatibility_date = "2026-11-22"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "eduiq-accounts"
+database_id = "e739123c-928a-4ade-96b2-18f9d57e3d7b"

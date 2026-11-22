@@ -1,0 +1,40 @@
+# Copy this file to .github/workflows/deploy.yml to enable GitHub Actions auto-deploy.
+# Creating workflow files requires a GitHub token with the "workflow" scope.
+# The live demo was deployed with: npm run deploy
+
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Deploy EduIQ to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install
+        run: npm install
+
+      - name: Test
+        run: npm test
+
+      - name: Deploy with Wrangler
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy . --project-name=eduiq --branch=main
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
